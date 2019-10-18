@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+.pic03 {
+    background-image: url('../images/pic03_1024x1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1024px 376px; /* size of the logo image @ 1x */
+}
+@media /* only for retina displays */
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    .pic03 {
+        background-image: url('../images/pic03_1024x2.jpg');
+    }
+}
+
+/*=======================*/
+
+.max00img {
+	background-image:url(../images/pic03_1024x1.jpg);
+}
+
+.btn-outline-secondary:hover {
+color: #fff;
+background-color: #000000;
+border-color: #000000;
+}
+
+
+.blog-header {
+border-bottom: none!important;
+}
+
+outline-dark:focus, btn-outline-secondary:focus {
+box-shadow: 0 0 0 0rem rgba(52,58,64,.5)!important;
+}
+btn-outline-secondary:focus {
+box-shadow: 0 0 0 0rem rgba(52,58,64,.5)!important;
+}
+
+
+.dropdown-item:active {
+color: #fff;
+text-decoration: none;
+background-color:rgba(241,53,1,1.00)!important;
+}
